@@ -1,2 +1,16 @@
+
+:root {
+  --app-bg: url(https://i.imgur.com/RzbqsE5.png);
+}
+
 body {
   background-color: transparent;
+}
+
+
+.appMount-2yBXZl {
+  background-color: var(--app-bg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: cover;
+}
