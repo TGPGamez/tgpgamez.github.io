@@ -1,6 +1,7 @@
 
 :root {
   --app-bg: url(https://i.imgur.com/RzbqsE5.png);
+  --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 10px;
 }
@@ -29,9 +30,36 @@ body {
 
 .layers-OrUESM:before {
   position: absolute;
+  width: calc(100% + (var(--app-margin) * 2));
+  height: calc(100% + (var(--app-margin) * 2) + 24px);
   background-image: var(--app-bg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  filter: blur(var(--app-blur));
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+	
+.titleContainer-3fPic2.titleElevated-eN3exl:before,
+.titleContainer-3fPic2.stickyHeaderElevated-dNSSrJ:before,
+.header-JUTO-g.titleElevated-eN3exl:before,
+.header-JUTO-g.stickyHeaderElevated-dNSSrJ:before {
+  content: " ";
+  position: absolute;
+  width: calc(100% + (var(--app-margin) * 2));
+  height: calc(100% + (var(--app-margin) * 2) + 24px);
+  top: calc((var(--app-margin) + 24px) * -1);
+  left: calc(var(--app-margin) * -1);
+  background-image: var(--app-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(var(--app-blur));
+  z-index: -1;
+  pointer-events: none;
 }
