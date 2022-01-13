@@ -2,7 +2,7 @@
 :root {
   --app-bg: url(https://i.imgur.com/RzbqsE5.png);
   --app-blur: 6px;
-  --app-margin: 24px;
+  --app-margin: 15px;
   --app-radius: 10px;
   --app-accent-image: none;
   --app-accent-rgb: 27, 213, 140;
@@ -136,4 +136,44 @@ body {
 }
 .notice-1tZwqv .button-3Ijpww:hover {
   background-color: transparent;
+}
+
+
+
+
+.notice-1tZwqv .button-3Ijpww:hover {
+  background-color: transparent;
+}
+
+.root-g14mjS .footer-31IekZ {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.input-m1-Y7Q {
+  background-color: transparent;
+}
+
+.header-1w9Q93 {
+  background-color: transparent;
+}
+
+.messageGroupWrapper-1jf_7C {
+  margin-bottom: 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.footer-5ji8u1 {
+  background-color: transparent;
+}
+
+.focused-2FU0YH {
+  background-color: transparent !important;
+}
+
+	
+.container-2ebMPP {
+  background-color: transparent;
+  overflow: hidden;
 }
