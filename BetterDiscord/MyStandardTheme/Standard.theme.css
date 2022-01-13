@@ -1,6 +1,8 @@
 
 :root {
   --app-bg: url(https://i.imgur.com/RzbqsE5.png);
+  --app-margin: 24px;
+  --app-radius: 10px;
 }
 
 body {
@@ -15,10 +17,21 @@ body {
   background-size: cover;
 }
 
+	
+.layers-OrUESM {
+  z-index: 1;
+}
+.layers-OrUESM {
+  margin: calc(var(--app-margin) / 2) var(--app-margin) var(--app-margin) var(--app-margin);
+  border-radius: var(--app-radius);
+  overflow: hidden;
+}
+
 .layers-OrUESM:before {
+  position: absolute;
   background-image: var(--app-bg);
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
